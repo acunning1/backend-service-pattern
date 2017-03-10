@@ -1,5 +1,5 @@
 #! /bin/bash
-# Tag, Push and Deploy only if it's not a pull request
+# Tag, Push and Deploy only if it's not a pull request2
 # Comment
 if [ -z "$TRAVIS_PULL_REQUEST" ] || [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   # Push only if we're testing the master branch
